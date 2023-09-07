@@ -1,0 +1,42 @@
+.error-modal-container {
+  transition: 0.2s ease-in-out;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.modal {
+  width: 100%;
+
+  background-color: rgb(5, 23, 77);
+  transition: 0.2s ease-in-out;
+  transform: translateY(-100%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.modal section p {
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 17px;
+}
+.modal section button {
+  transition: 0.2s ease-in-out;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  color: #fff;
+  outline: none;
+  text-align: center;
+  font-size: 20px;
+  background: transparent;
+  cursor: pointer;
+}
+.modal section button:hover {
+  transition: 0.2s ease-in-out;
+  background-color: #fff;
+  color: black;
+}

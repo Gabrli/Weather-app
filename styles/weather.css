@@ -1,0 +1,22 @@
+.weather-informations-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  display: none;
+}
+
+.weather-informations-wrapper p {
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 16px;
+  text-align: center;
+}
+#temp-text {
+  font-size: 27px;
+}
+#hum-text {
+  color: skyblue;
+  font-size: 20px;
+}

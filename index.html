@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./styles/header.css" rel="stylesheet" type="text/css" />
+    <link href="./styles/userInfoInputs.css" rel="stylesheet" type="text/css" />
+    <link href="./styles/weather.css" rel="stylesheet" type="text/css" />
+    <link href="./styles/class.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="./styles/index.css" type="text/css" />
+    <link rel="stylesheet" href="./styles/modal.css" type="text/css" />
+
+    <script type="module" src="./dist/index.js" defer=""></script>
+
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="app-continer">
+      <div class="tools-container">
+        <header>
+          <div class="logo-box"></div>
+          <p id="title"><b>Weather App</b></p>
+          <p id="descryption">Check the weather at your place</p>
+        </header>
+        <section class="weather-informations-wrapper">
+          <p id="temp-text">
+            <span><i class="fa-solid fa-temperature-three-quarters"></i></span>
+            <b class="temp"></b>
+          </p>
+          <p id="hum-text">
+            <span><i class="fa-solid fa-droplet"></i></span>
+            <b class="humadity"></b>
+          </p>
+        </section>
+        <section class="user-info-container">
+          <div id="input-box">
+            <label for="city-name">City name:</label>
+            <input id="city-name" name="city-name" type="text" value="" />
+          </div>
+          <div id="btn-box">
+            <button class="btn-search"><p>search</p></button>
+          </div>
+        </section>
+      </div>
+
+      <div class="error-modal-container">
+        <div class="modal">
+          <section>
+            <p><b>City not found !</b></p>
+          </section>
+          <section>
+            <button class="btn-hidden">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </section>
+          <section>
+            <div class="error-img-box"></div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

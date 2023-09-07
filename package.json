@@ -1,0 +1,19 @@
+{
+  "name": "weatherapp-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabrli/weatherApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gabrli/weatherApp/issues"
+  },
+  "homepage": "https://github.com/Gabrli/weatherApp#readme"
+}
